@@ -1,3 +1,4 @@
+/*
 # Resource-2: Create Network Interface
 resource "azurerm_network_interface" "web_linuxvm_nic" {
   name = "${local.resource_name_prefix}-web-linuxvm-nic"
@@ -11,4 +12,4 @@ resource "azurerm_network_interface" "web_linuxvm_nic" {
     public_ip_address_id = azurerm_public_ip.web_linuxvm_publicip.id
   }
 }
-
+*/

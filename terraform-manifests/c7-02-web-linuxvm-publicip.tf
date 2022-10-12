@@ -1,3 +1,4 @@
+/*
 # Resource-1: Create Public IP Address
 resource "azurerm_public_ip" "web_linuxvm_publicip" {
   name = "${local.resource_name_prefix}-web-linuxvm-publicip"
@@ -7,4 +8,4 @@ resource "azurerm_public_ip" "web_linuxvm_publicip" {
   sku = "Standard"
   domain_name_label = "app1-vm-${random_string.myrandom.id}"
 }
-
+*/

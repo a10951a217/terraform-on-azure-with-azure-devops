@@ -1,3 +1,4 @@
+/*
 # Linux VM Input Variables Placeholder file.
 variable "web_linuxvm_size" {
   description = "Web Linux VM Size"
@@ -10,3 +11,4 @@ variable "web_linuxvm_admin_user" {
   type = string 
   default = "azureuser"
 }
+*/
